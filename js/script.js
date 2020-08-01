@@ -21,7 +21,7 @@ function onClickHam(e){
         ham[0].style.transform = "translateY(0) rotateZ(0)";
         ham[1].style.opacity = "1";
         ham[2].style.transform = "translateY(0) rotateZ(0)";
-        localNav.style.height = "100px";
+        localNav.style.height = "80px";
     }
     toggle = !toggle;
 }
