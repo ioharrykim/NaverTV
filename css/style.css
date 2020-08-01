@@ -217,7 +217,7 @@ ul {
 	.local-nav {
 		width: 100vw;
 		height: 80px; /* 이 속성을 80px - 100vh와 토글 */
-		transition: all 0.4s;
+		transition: none;
 	}
 	.local-nav-links {
 		display: none;

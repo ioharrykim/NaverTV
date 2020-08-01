@@ -16,12 +16,14 @@ function onClickHam(e){
         ham[1].style.opacity = "0";
         ham[2].style.transform = "translateY(-12px) rotateZ(-45deg)";
         localNav.style.height = "100vh";
+        localNav.style.transition = "all 0.4s";
     }
     else if(!toggle){
         ham[0].style.transform = "translateY(0) rotateZ(0)";
         ham[1].style.opacity = "1";
         ham[2].style.transform = "translateY(0) rotateZ(0)";
         localNav.style.height = "80px";
+        localNav.style.transition = "all 0.4s";
     }
     toggle = !toggle;
 }
